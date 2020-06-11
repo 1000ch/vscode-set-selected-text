@@ -1,0 +1,35 @@
+{
+  "name": "vscode-set-selected-text",
+  "version": "0.0.0",
+  "description": "An easy-to-use VS Code `#setSelectedText()` method",
+  "license": "MIT",
+  "repository": "1000ch/vscode-set-selected-text",
+  "main": "./out/index.js",
+  "types": "./out/index.d.ts",
+  "author": {
+    "name": "Shogo Sensui",
+    "email": "shogosensui@gmail.com",
+    "url": "https://github.com/1000ch"
+  },
+  "engines": {
+    "vscode": "1.46.0"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "files": [
+    "out"
+  ],
+  "keywords": [
+    "vscode",
+    "editor",
+    "text",
+    "set",
+    "settext"
+  ],
+  "devDependencies": {
+    "@types/vscode": "^1.46.0",
+    "typescript": "^3.9.5"
+  }
+}
