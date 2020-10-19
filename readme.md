@@ -1,4 +1,5 @@
-# vscode-set-selected-text
+# vscode-set-selected-text [![Dependency Status](https://david-dm.org/1000ch/vscode-set-selected-text.svg)](https://david-dm.org/1000ch/vscode-set-selected-text)
+[![devDependency Status](https://david-dm.org/1000ch/vscode-set-selected-text/dev-status.svg)](https://david-dm.org/1000ch/vscode-set-selected-text?type=dev)
 
 > An easy-to-use VS Code `#setSelectedText()` method
 
