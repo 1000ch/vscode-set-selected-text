@@ -1,16 +1,15 @@
-'use strict';
 import { window, TextEditor } from 'vscode';
 
 export default function(text: string, editor?: TextEditor): Thenable<void> {
-  editor = editor || window.activeTextEditor;
+  const textEditor = editor ?? window.activeTextEditor;
 
-  if (!editor) {
+  if (!textEditor) {
     return Promise.resolve();
   }
 
   return new Promise<void>(resolve => {
-    editor.edit(builder => {
-      builder.replace(editor.selection, text);
+    textEditor.edit(builder => {
+      builder.replace(textEditor.selection, text);
       resolve();
     });
   });
