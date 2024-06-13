@@ -1,6 +1,6 @@
 {
   "name": "vscode-set-selected-text",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An easy-to-use VS Code `#setSelectedText()` method",
   "license": "MIT",
   "repository": "1000ch/vscode-set-selected-text",
