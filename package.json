@@ -11,12 +11,14 @@
     "email": "shogosensui@gmail.com",
     "url": "https://github.com/1000ch"
   },
+  "publisher": "1000ch",
   "engines": {
-    "vscode": "1.55.0"
+    "vscode": "1.90.0"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "xo"
   },
   "files": [
     "out"
@@ -29,7 +31,10 @@
     "settext"
   ],
   "devDependencies": {
-    "@types/vscode": "^1.55.0",
-    "typescript": "^4.2.4"
-  }
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.4.5"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ]
 }
